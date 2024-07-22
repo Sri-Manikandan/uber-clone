@@ -5,7 +5,7 @@ import React from 'react'
 function CheckoutItem() {
   const {amount, setAmount} = React.useContext(AmountContext);
   return (
-    <div className='flex flex-col items-center justify-center w-[25%]'>
+    <div className='flex flex-col items-center justify-center w-[500px] mt-7 md:mt-0'>
         <h1 className='font-bold text-xl text-center'>Amount to Pay: ${amount}</h1>
         <div className='flex flex-col p-5 rounded-lg border-2 border-black m-5 shadow-lg w-full'>
           <div className='flex flex-col p-2'>

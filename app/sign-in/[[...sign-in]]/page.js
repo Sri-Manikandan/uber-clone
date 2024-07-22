@@ -7,7 +7,7 @@ export default function Page() {
       <div>
         <Image src='/banner.png' alt="banner" width={1100} height={1000}
 				className="object-cover h-screen w-screen"/>
-				<div className="absolute top-32 right-10">
+				<div className="absolute top-32 left-5 md:top-32 md:right-10">
 					<SignIn />
 				</div>
       </div>
